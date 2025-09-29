@@ -1,6 +1,12 @@
-data type in javascript
 primitive type=number 
               boolean (for true and false values)
               string
               undefined
               null
+
+
+modulo(used for reminder operation)
+12%5=2
+
+exponentiation (power operator)
+2**3=8
