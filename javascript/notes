@@ -51,3 +51,12 @@ we can also creat an empty string by using the empty" "; this is an empty srting
 STRING INDICES
 EVERY leter have their specified place (indexing)
 TONY STARK(0=T 1=o ... _=4 and so on)
+we can also find the length of the perticukr string by using the term = name.length
+
+
+we can add multipel string with the help os term= concatenation
+eg-"tony" + "" + "stark"="tony stark"
+
+-----------------------------------------------------------------------
+CONSOLE.LOG()
+when we have print anything
