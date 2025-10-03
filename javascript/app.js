@@ -60,7 +60,7 @@ console.log("++a");
 let marks1 = 97;
 if (marks1 >=33 && marks1 >=80){
     console.log("passed")
-    console.log("Grade A+")
+    console.log("Grade +")
 }     
 
 
