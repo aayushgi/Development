@@ -78,3 +78,7 @@ console.log(fristName)
 let fristname = prompt("plz enter your frist name")
 let lastname = prompt("plz enter your last name")
 console.log(fristname + " " + lastname)
+
+
+
+//string methods
