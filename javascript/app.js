@@ -9,7 +9,7 @@ let output = `the total prize is : ${pencil+pen} rupees`;
 console.log(output);
 //arithmatic operators
 let x = 100;
-let y = 5;
+let y = 50;
 let a = 5;
 console.log("the value of x+y is :", x+y);
 console.log("the value of x+y is :", x*y);
