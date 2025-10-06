@@ -82,3 +82,9 @@ console.log(fristname + " " + lastname)
 
 
 //string methods
+//1.trim method
+let myName = "   rahul kumar   "
+console.log(myName.length)
+console.log(myName.trim().length)
+console.log(myName.trim())
+// this will be remove the extra spaces from the string
