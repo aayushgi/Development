@@ -88,3 +88,9 @@ console.log(myName.length)
 console.log(myName.trim().length)
 console.log(myName.trim())
 // this will be remove the extra spaces from the string
+// 2.toUpperCase
+let myname ="Apna college"
+console.log(myname.toUpperCase())
+console.log(myname.toLowerCase())
+let message ="   ayush saxena"
+let message=  message.trim().toLowerCase()
