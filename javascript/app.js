@@ -93,4 +93,4 @@ let myname ="Apna college"
 console.log(myname.toUpperCase())
 console.log(myname.toLowerCase())
 let message ="   ayush saxena"
-let message=  message.trim().toLowerCase()
+let messa =  message.trim().toLowerCase()
