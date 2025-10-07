@@ -94,3 +94,5 @@ console.log(myname.toUpperCase())
 console.log(myname.toLowerCase())
 let message ="   ayush saxena"
 let messa =  message.trim().toLowerCase()
+let msg= "hellow";
+console.log(msg.slice(0,3))
