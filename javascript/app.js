@@ -96,3 +96,4 @@ let message ="   ayush saxena"
 let messa =  message.trim().toLowerCase()
 let msg= "hellow";
 console.log(msg.slice(0,3))
+// today no update in this file due to festival
