@@ -1,0 +1,91 @@
+/* .container{
+    width: 600px;
+    height: 300px;
+    background-color: aquamarine;
+    display: grid; */
+    /* grid-template-rows: 100px 100px 100px ;  
+    grid-template-columns: 100px 100px 100px 100px; */
+    /* grid-template-rows: repeat(5, 1fr);
+    row-gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    justify-items: start;
+
+}
+.item{
+    width: 200px;
+    height: 50px; 
+    background-color: antiquewhite;
+    border: 2px solid black;
+    
+}
+.one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+} */
+
+/* ANIMATIONS */
+.box{
+    height: 200px;
+    width: 300px;
+    background-color: pink;
+
+/* 
+    animation-name: fontanimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 5;
+    animation-direction: normal; */
+
+    /* animation-name: coloranimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+
+    animation: coloranimation  2s ease-in 0s infinite normal;
+}
+
+@keyframes fontanimation{
+    form{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px
+    }
+}
+@keyframes coloranimation{
+    0%{
+        background-color: green;
+         font-size: 20px;
+          border-radius: 20%;
+        
+    }
+    50%{
+        background-color: olive;
+    }
+    70%{
+        background-color: purple;
+    }
+    100%{
+        background-color: blue;
+        font-size: 40px
+        
+        
+    }
+}
+
+/* MEDIA QUERIES */
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+@media (min-width: 400px){
+    h1{
+        background-color: brown;
+    }
+}
+
+
