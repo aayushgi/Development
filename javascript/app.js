@@ -98,9 +98,14 @@ let msg= "hellow";
 console.log(msg.slice(0,3))
 // today no update in this file due to festival
 // another day without updates due to bad health 
+<<<<<<< HEAD
 
 // another reason for no updates is today attending google cloud labs
 
 // another reason for no updates is today attending google cloud labs
 // trying to update the files
 
+=======
+// another reason for no updates is today attending google cloud labs
+// no upadted from the terminal branch
+>>>>>>> b65ed16d699eb31ea42434517d237a15bb4c8bd9
