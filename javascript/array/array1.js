@@ -25,3 +25,6 @@ console.log(students.slice(1,4))
 // we use splice method to add or remove elements from array even we can replace the elements 
 console.log(students.splice(2,2,"neha","riya")) // it will remove 2 elements from index 2 and add neha and riya from index 2
 // today may be adding some lines more
+
+// ____________________________________array methods _____________________________________
+// if we craet const array then we can not reassign the array but we can change the elements of array
