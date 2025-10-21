@@ -28,3 +28,4 @@ console.log(students.splice(2,2,"neha","riya")) // it will remove 2 elements fro
 
 // ____________________________________array methods _____________________________________
 // if we craet const array then we can not reassign the array but we can change the elements of array
+// no changes due to festival
