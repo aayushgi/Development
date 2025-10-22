@@ -35,3 +35,7 @@ console.log(cars.sort())
 // if we want to sort numbers in array we have to use compare function
 // ________________________array refrences____________________________________
  
+// we can refer array to another variable 
+// ______________________________constant array_____________________________
+// when we make array as constant we can not reassign the array but we can change the elements of array
+// we cant convert an array into a new array
