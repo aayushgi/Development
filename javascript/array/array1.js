@@ -39,3 +39,11 @@ console.log(cars.sort())
 // ______________________________constant array_____________________________
 // when we make array as constant we can not reassign the array but we can change the elements of array
 // we cant convert an array into a new array
+// ______________________________neasted array_____________________________
+// we also call it multidimensional array
+let neastedArray = [["apple", "banana"], ["carrot", "broccoli"], ["grapes", "mango"]]
+console.log(neastedArray[1][0]) // it will access carrot
+
+// _________________________________practice____________________________________
+    let game = [['*', null, '0'], [null, '*', null], [0, null, '*']]
+    console
