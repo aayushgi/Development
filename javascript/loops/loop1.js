@@ -10,3 +10,21 @@ console.log("3");
 for (let i = 1; i <= 5; i++) {
     console.log(i);
 }
+// 5rakg7af
+// ______________________________________________print all odd number are lies between 1 to 100____________________________________
+
+for(let i=1; i<=50; i=i+2){
+    console.log(i);
+}
+
+// _________________________________________________print all even number are lies between 2 to 100____________________________________
+for(let i=2;  i<=50; i=i+2){
+    console.log(i);
+}
+
+
+let n = prompt("Enter your number which table did you want to print");
+n = parseInt(n);  // this function we basically used to convert string into the interegers
+for(let i=n; i<=n*10; i=i+n){
+    console.log(i);
+}
