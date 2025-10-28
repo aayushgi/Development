@@ -28,3 +28,17 @@ n = parseInt(n);  // this function we basically used to convert string into the 
 for(let i=n; i<=n*10; i=i+n){
     console.log(i);
 }
+
+
+// ___________________________________________________guess the favorite movie_____________________________________________
+let favoriteMovie = "pk";
+guessmovie = prompt("Guess my favorite movie");
+while((guessmovie !==favoriteMovie)&&(guessmovie!=="quit ")){
+     guessmovie=prompt("Wrong guess! Try again.");
+     
+
+}
+
+if(guessmovie === favoriteMovie){
+    console.log("Congratulations! You guessed it right.");
+}
