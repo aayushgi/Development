@@ -5,3 +5,8 @@ console.log("3");
 // no changes
 // trying to add some changes here
 // no changes yet again
+// ___________________________________________28/10/2025_______________________________________
+// for loop
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
+}
