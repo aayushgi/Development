@@ -46,7 +46,11 @@ if(guessmovie === favoriteMovie){
 // we are using the break keyword to exit the loop when a certain condition is met
 let i=1;
 while(i<=10){
+    if(i===6){
+        break;
+    }
     console.log(i);
     i++;
+
     
 }
