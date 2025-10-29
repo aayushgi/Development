@@ -42,3 +42,11 @@ while((guessmovie !==favoriteMovie)&&(guessmovie!=="quit ")){
 if(guessmovie === favoriteMovie){
     console.log("Congratulations! You guessed it right.");
 }
+// ______________________________________________________break keyword ______________________________________________________
+// we are using the break keyword to exit the loop when a certain condition is met
+let i=1;
+while(i<=10){
+    console.log(i);
+    i++;
+    
+}
