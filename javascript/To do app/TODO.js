@@ -1,10 +1,11 @@
 let todo = [];
 let req = prompt("plese enter your request");
-// while(true){
-//     if(req  == "quit"){
-//         console.log("quiting the app");
-//         break; 
-//     }
+ for(req!==quit)
+ {
+      if(req  == "quit"){
+        console.log("quiting the app");
+       break; 
+    }
     if(req =="list"){
         console.log("**********");
         for(task of todo){
@@ -18,4 +19,7 @@ let req = prompt("plese enter your request");
         console.log("task added");
     }
      req= prompt("plese enter your request");
-
+ }
+ 
+  
+ 
