@@ -1,7 +1,10 @@
 let todo = [];
 let req = prompt("Please enter your request");
 
-while (req !== "quit") {   // ✅ runs until user types 'quit'
+while (req !== "quit") { 
+    if(req == "quit"){
+        console.log("Quitting the app...");
+    }  // ✅ runs until user types 'quit'
     if (req === "list") {
         console.log("**********");
         for (let task of todo) {
@@ -14,11 +17,9 @@ while (req !== "quit") {   // ✅ runs until user types 'quit'
         todo.push(task);
         console.log("Task added");
     } 
-    else {
-        console.log("Unknown command");
-    }
+    
 
-    req = prompt("Please enter your request"); // ✅ ask again each loop
+    req = prompt("Please enter your request");
 }
 
-console.log("Quitting the app...");
+
