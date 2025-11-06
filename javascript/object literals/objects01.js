@@ -68,4 +68,4 @@ const studentinfoarray = [
         gender: "female"
     }
 ];
- 
+//  _______________________________math object___________________________
