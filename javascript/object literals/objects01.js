@@ -69,3 +69,8 @@ const studentinfoarray = [
     }
 ];
 //  _______________________________math object___________________________
+  Math.floor(5.999)
+//   ____________________________random integers_______________________________
+let num= Math.random;
+num= num*10;
+num= Math.floor(Math.random*10);
