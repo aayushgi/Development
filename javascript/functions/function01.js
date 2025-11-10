@@ -25,3 +25,23 @@ rolldice();     //this will write to get the output
     printinfo("john",25);
     printinfo("alice",30);
     printinfo("bob",22);
+
+    // _______________________________________fuction to get the average of three numbers 
+    // write a function to get the avrrage pf the three numbers
+    function average(num1, num2, num3){
+      let avg= (num1 + num2+ num3)/3;
+      console.log("average is:" , avg);
+    }
+    average(10,20,30);
+    average(5,15,25);
+    average(7,14,21);
+    // __________________________________________fuction to get the table of the number__________
+    function printtable(n){
+      for(let i=n; i<=n*10; i+=n){
+        console.log(i);
+      }
+    }
+    printtable(5)
+    // _________________________________________return statement in function_________________________
+    // return keyword used to return the value from the function
+    
