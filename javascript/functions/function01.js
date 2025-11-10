@@ -16,4 +16,12 @@ function rolldice(){
 rolldice();
 rolldice();
 rolldice();
-rolldice();     //this will write to get the output ~
+rolldice();     //this will write to get the output 
+ 
+// ___________________________________________functions with arguments____________________________________________________
+  function printinfo(name,age){
+    console.log("Name:"+name+", Age:"+age);
+ }
+    printinfo("john",25);
+    printinfo("alice",30);
+    printinfo("bob",22);
