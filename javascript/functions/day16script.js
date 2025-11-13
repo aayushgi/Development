@@ -20,3 +20,10 @@ return sum;
     }
     return result;
 }
+// scope example
+// scope determine the acessibility of variable, function and object from different part of
+// 1. function scope () 
+function calsum(a, b){
+let sum = a + b;
+
+}
