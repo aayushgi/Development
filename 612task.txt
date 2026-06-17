@@ -1,0 +1,17 @@
+12/6/2026
+Task1:
+	create a gallery with page name gallery.html
+		1. with multiple photo
+		2. 4 flowers
+		3. 4 vegetable
+		4. 4 friends
+		5. 4 politician
+		6. 4 freed fighter
+		7. 4 actor
+		8. 4 actors
+		9. 4 mobile phone
+		10.4 teachers
+		11.4 boys outfits
+		12.4 technology
+		13.4 parents
+

@@ -1,0 +1,15 @@
+Task 2
+	1.design a registration form by using 30 feild
+	2.design a registration form by using 30 feild(aligned)
+	3.design reg. of patient appointment system(PAS) 
+	4.create a reg. form for BTech admission 
+
+
+
+hypertext:-
+	it is a collection of underline words icon images which is connected to a specified 	link
+
+hyperlink how to identify?
+1. it have underline 
+2. having with blue color
+3. corsor will changed into hand
