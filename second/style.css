@@ -1,0 +1,36 @@
+div{
+    height: 200px;
+    width: 500px;
+     background-color: pink;
+   /* border-width: 5px;
+    border-style: solid;
+    border-color: aquamarine; */
+    border: 5px black solid;
+    border-radius: 17px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 25px;
+    margin-left: 12px ;
+
+
+}
+h1{
+    color: black;
+    background-color: aquamarine;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+    padding-left: 10px;
+    margin: 25px;
+}
+button{
+    width: 70px;
+    height: 50px;
+    background-color: rgb(11, 69, 3);
+    color: white;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin-top: 25px;
+}

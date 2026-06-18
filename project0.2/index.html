@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your AI Frontend</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="light-mode">
+
+  <header class="header">
+    <div class="logo">AI</div>
+    <nav class="nav">
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#docs">Docs</a>
+      <button id="mode-toggle" class="mode-toggle">Dark Mode</button>
+      <a href="#get-started" class="btn-primary">Get Started</a>
+    </nav>
+    <button id="menu-button" class="menu-button">&#9776;</button> <!-- mobile menu icon -->
+  </header>
+
+  <!-- Mobile nav -->
+  <div id="mobile-nav" class="mobile-nav hidden">
+    <a href="#features">Features</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#docs">Docs</a>
+    <a href="#get-started" class="btn-primary">Get Started</a>
+    <button id="mobile-close" class="mobile-close">Close</button>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Build delightful AI experiences — fast</h1>
+        <p>A compact, modular frontend slice ready to plug into your backend or API. Includes responsive layout, dark mode, and accessible components.</p>
+        <div class="actions">
+          <a href="#get-started" class="btn-primary">Get started</a>
+          <a href="#docs" class="btn-secondary">View docs</a>
+        </div>
+        <div class="demo-input">
+          <input type="text" id="user-query" placeholder="Ask something like &quot;Summarize my meeting notes&quot;" />
+          <button id="run-btn">Run</button>
+        </div>
+      </div>
+      <div class="hero-preview">
+        <div class="chat-preview">
+          <div class="chat-message user">User: What&#39;s the plan for today?</div>
+          <div class="chat-message ai">AI: Draft the agenda, prioritize tasks, and assign owners.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2>Key features</h2>
+      <div class="feature-list">
+        <div class="feature">
+          <div class="emoji">🗨️</div>
+          <h3>Conversational UI</h3>
+          <p>A fast, accessible chat interface that feels natural and responsive.</p>
+        </div>
+        <div class="feature">
+          <div class="emoji">🔌</div>
+          <h3>Extensible</h3>
+          <p>Plug in tools, actions, and integrations (APIs, webhooks) with minimal effort.</p>
+        </div>
+        <div class="feature">
+          <div class="emoji">🛡️</div>
+          <h3>Safety & Controls</h3>
+          <p>Rate limiting, content filters and admin controls built-in for production use.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <h2>Pricing</h2>
+      <div class="pricing-cards">
+        <div class="card">
+          <h3>Hobby</h3>
+          <p class="price">Free</p>
+          <p>Limit of requests, community support.</p>
+          <button class="btn-primary">Get started</button>
+        </div>
+        <div class="card">
+          <h3>Team</h3>
+          <p class="price">$29/mo</p>
+          <p>Shared workspace, more requests.</p>
+          <button class="btn-secondary">Try for free</button>
+        </div>
+        <div class="card">
+          <h3>Enterprise</h3>
+          <p class="price">Custom</p>
+          <p>SLA, dedicated support, SSO.</p>
+          <button class="btn-primary">Contact sales</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="docs" class="docs">
+      <h2>Docs & integration</h2>
+      <ol>
+        <li>POST user messages to your backend.</li>
+        <li>Backend forwards to an LLM/API and receives assistant message(s).</li>
+        <li>Render assistant messages in the chat component; stream if your API supports it.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Your AI — built with HTML, CSS & JavaScript</p>
+    <div class="footer-links">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

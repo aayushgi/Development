@@ -1,0 +1,29 @@
+#main_container{
+    height: 600px;
+    width: 90%;
+    background-color: aqua;
+    margin: 10% auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    /* align-items: baseline; */
+    align-items: flex-start;
+}
+/* align self property is grater than the aling item */
+/* when we use flex direction revrse then they will be reverse all the items */
+h1{
+    text-align: center;
+}
+#main_container div{
+    height: 110px;
+    width: 150px;
+    color: white;
+    text-align: center;
+    font-size: 0.5em;
+}
+#orange{
+    align-self: flex-end;
+}
+/* lec09cssday09 */
