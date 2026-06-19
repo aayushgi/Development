@@ -1,39 +1,101 @@
 <html>
 <head>
 <style>
+
 #body{
-height:1000px;
-width:1000px;
-border:1px solid;
+    height:1000px;
+    width:1000px;
+    border:1px solid black;
 }
-#row1{
-height:250px;
-width:1000px;
-border:1px solid;
+
+/* Row 1 */
+#r1{
+    height:250px;
+    width:250px;
+    padding-left:375px;
 }
-#row2{
-height:250px;
-width:1000px;
-border:1px solid;
+
+#r1b1{
+    height:250px;
+    width:250px;
+    border:1px solid black;
+    box-sizing:border-box;
+    float:left;
 }
-#row3{
-height:250px;
-width:1000px;
-border:1px solid;
+
+/* Row 2 */
+#r2{
+    height:250px;
+    width:500px;
+    padding-left:250px;
 }
-#row4{
-height:250px;
-width:1000px;
-border:1px solid;
+
+#r2b1,#r2b2{
+    height:250px;
+    width:250px;
+    border:1px solid black;
+    box-sizing:border-box;
+    float:left;
 }
+
+/* Row 3 */
+#r3{
+    height:250px;
+    width:750px;
+    padding-left:125px;
+}
+
+#r3b1,#r3b2,#r3b3{
+    height:250px;
+    width:250px;
+    border:1px solid black;
+    box-sizing:border-box;
+    float:left;
+}
+
+/* Row 4 */
+#r4{
+    height:250px;
+    width:1000px;
+}
+
+#r4b1,#r4b2,#r4b3,#r4b4{
+    height:250px;
+    width:250px;
+    border:1px solid black;
+    box-sizing:border-box;
+    float:left;
+}
+
 </style>
 </head>
 <body>
+
 <div id="body">
-<div id="row1"></div>
-<div id="row2"></div>
-<div id="row3"></div>
-<div id="row4"></div>
+
+    <div id="r1">
+        <div id="r1b1"></div>
+    </div>
+
+    <div id="r2">
+        <div id="r2b1"></div>
+        <div id="r2b2"></div>
+    </div>
+
+    <div id="r3">
+        <div id="r3b1"></div>
+        <div id="r3b2"></div>
+        <div id="r3b3"></div>
+    </div>
+
+    <div id="r4">
+        <div id="r4b1"></div>
+        <div id="r4b2"></div>
+        <div id="r4b3"></div>
+        <div id="r4b4"></div>
+    </div>
+
 </div>
+
 </body>
 </html>
