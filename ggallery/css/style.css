@@ -1,0 +1,155 @@
+body{
+background-color:lightgray;
+}
+#outer{
+height:1200px;
+width:1500px;
+
+border:1px solid;
+}
+#one{
+height:1150px;
+width:700px;
+//border:1px solid;
+margin-top:25px;
+margin-left:25px;
+float:left;
+}
+#two{
+height:1150px;
+width:350px;
+//border:1px solid;
+margin-top:25px;
+margin-left:25px;
+float:left;
+}
+#three{
+height:1150px;
+width:350px;
+//border:1px solid;
+margin-top:25px;
+margin-left:25px;
+float:left;
+}
+#top{
+height:400px;
+width:700px;
+border:1px solid;
+}
+#bottom{
+height:724px;
+//border:1px solid;
+margin-top:25px;
+}
+#left{
+width:335px;
+height:724px;
+//border:1px solid;
+float:left;
+}
+#right{
+width:335px;
+//border:1px solid;
+float:right;
+height:724px;
+}
+
+#box21{
+height:380px;
+width:350px;
+border:1px solid;
+}
+#box22{
+height:248px;
+width:350px;
+border:1px solid;
+margin-top:25px;
+}
+#box23{
+height:470px;
+width:350px;
+border:1px solid;
+margin-top:25px;
+}
+
+
+#box31{
+height:470px;
+width:350px;
+border:1px solid;
+}
+#box32{
+height:380px;
+width:350px;
+border:1px solid;
+margin-top:25px;
+}
+#box33{
+height:248px;
+width:350px;
+border:1px solid;
+margin-top:25px;
+}
+
+#leftup{
+height:300px;
+width:335px;
+//border:1px solid;
+
+}
+#bloggerup{
+height:200px;
+width:335px;
+background-color:rgb(206, 72, 61);
+}
+#blog{
+height:150px;
+width:200px;
+margin-top:17px;
+margin-left:65px;
+}
+#bloggerdown{
+height:100px;
+width:335px;
+background-color:rgb(188, 64, 53);
+}
+#leftbottom{
+height:395px;
+width:335px;
+border:1px solid;
+margin-top:25px;
+}
+#androidup{
+height:285px;
+width:335px;
+background-color:rgb(143, 176, 33);
+}
+#android{
+height:150px;
+width:150px;
+margin-top:65px;
+margin-left:90px;
+}
+#androidbottom{
+height:110px;
+width:335px;
+background-color:rgb(127, 156, 28);
+}
+#rightup{
+
+height:395px;
+width:335px;
+border:1px solid;
+
+}
+#rightbottom{
+
+height:300px;
+width:335px;
+border:1px solid;
+margin-top:25px;
+}
+img{
+height:400px;
+width:700px;
+}
