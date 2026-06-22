@@ -63,6 +63,8 @@ width:350px;
     height: 280px;
     width: 350px;
     background-color: rgb(171, 203, 214);
+    background-image: url(../images/gmail.png);
+    background-size: cover;
 }
 #gamildown{
     height: 100px;
@@ -79,6 +81,11 @@ margin-top:25px;
     height: 200px;
     width: 350px;
     background-color: rgb(123, 192, 161);
+    background-image: url(../images/news.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
 }
 #newsdown{
     height: 48px;
@@ -95,6 +102,17 @@ margin-top:25px;
     height: 370px;
     width: 350px;
     background-color: rgb(17, 30, 85);
+   
+    background-repeat: no-repeat;
+}
+#earthimg{
+   height: 190px;
+   width: 190px;
+    align-items: center;
+   margin-left: 80px;
+    background-image: url(../images/earth.png);
+    background-size: cover;
+   
 }
 #earthdown{
     height: 100px;
@@ -110,6 +128,8 @@ width:350px;
     height: 350px;
     width: 350px;
     background-color: rgb(249, 189, 39);
+    background-image: url(../images/maps.png);
+    background-size: cover;
 }
 #mapdown{
     height: 120px;
@@ -126,6 +146,8 @@ margin-top:25px;
     height: 300px;
     width: 350px;
     background-color: rgb(42, 112, 233);
+    background-image: url(../images/serch.png);
+    background-repeat: no-repeat;
 }
 
 #searchdown{
@@ -143,6 +165,10 @@ margin-top:25px;
     height: 200px;
     width: 350px;
     background-color: rgb(44, 36, 34);
+    background-image: url(../images/youtube.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
 }
 #youtubedown{
     height: 48px;
@@ -184,9 +210,9 @@ background-color:rgb(143, 176, 33);
 }
 #android{
 height:150px;
-width:150px;
+width:200px;
 margin-top:65px;
-margin-left:90px;
+margin-left:50px;
 }
 #androidbottom{
 height:110px;
@@ -204,6 +230,8 @@ width:335px;
 height: 300px;
 width: 335px;
 background-color: rgb(121, 48, 42);
+background-image: url(../images/chrom.png);
+background-size: contain;
 
 }
 #chromedown{
@@ -223,6 +251,9 @@ margin-top:25px;
     height: 200px;
     width: 335px;
     background-color: rgb(255, 208, 6);
+    background-image: url(../images/music.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #musicdown{
