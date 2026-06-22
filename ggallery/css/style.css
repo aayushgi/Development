@@ -1,11 +1,11 @@
 body{
-background-color:lightgray;
+background-color:rgb(238, 238, 238);
 }
 #outer{
 height:1200px;
 width:1500px;
 
-border:1px solid;
+//border:1px solid;
 }
 #one{
 height:1150px;
@@ -34,7 +34,7 @@ float:left;
 #top{
 height:400px;
 width:700px;
-border:1px solid;
+//border:1px solid;
 }
 #bottom{
 height:724px;
@@ -57,40 +57,98 @@ height:724px;
 #box21{
 height:380px;
 width:350px;
-border:1px solid;
+//border:1px solid;
+}
+#gamilup{
+    height: 280px;
+    width: 350px;
+    background-color: rgb(171, 203, 214);
+}
+#gamildown{
+    height: 100px;
+    width: 350px;
+    background-color: rgb(141, 190, 207);
 }
 #box22{
 height:248px;
 width:350px;
-border:1px solid;
+//border:1px solid;
 margin-top:25px;
+}
+#newsup{
+    height: 200px;
+    width: 350px;
+    background-color: rgb(123, 192, 161);
+}
+#newsdown{
+    height: 48px;
+    width: 350px;
+    background-color: rgb(94, 185, 144);
 }
 #box23{
 height:470px;
 width:350px;
-border:1px solid;
+//border:1px solid;
 margin-top:25px;
 }
-
-
+#earthup{
+    height: 370px;
+    width: 350px;
+    background-color: rgb(17, 30, 85);
+}
+#earthdown{
+    height: 100px;
+    width: 350px;
+    background-color: rgb(10, 22, 62);
+}
 #box31{
 height:470px;
 width:350px;
-border:1px solid;
+//border:1px solid;
+}
+#mapup{
+    height: 350px;
+    width: 350px;
+    background-color: rgb(249, 189, 39);
+}
+#mapdown{
+    height: 120px;
+    width: 350px;
+    background-color: rgb(242, 181, 28);
 }
 #box32{
 height:380px;
 width:350px;
-border:1px solid;
+//border:1px solid;
 margin-top:25px;
+}
+#searchup{
+    height: 300px;
+    width: 350px;
+    background-color: rgb(42, 112, 233);
+}
+
+#searchdown{
+    height: 80px;
+    width: 350px;
+    background-color: rgb(9, 86, 218);
 }
 #box33{
 height:248px;
 width:350px;
-border:1px solid;
+//border:1px solid;
 margin-top:25px;
 }
-
+#youtubeup{
+    height: 200px;
+    width: 350px;
+    background-color: rgb(44, 36, 34);
+}
+#youtubedown{
+    height: 48px;
+    width: 350px;
+    background-color: rgb(21, 17, 16);
+}
 #leftup{
 height:300px;
 width:335px;
@@ -116,7 +174,7 @@ background-color:rgb(188, 64, 53);
 #leftbottom{
 height:395px;
 width:335px;
-border:1px solid;
+//border:1px solid;
 margin-top:25px;
 }
 #androidup{
@@ -139,15 +197,38 @@ background-color:rgb(127, 156, 28);
 
 height:395px;
 width:335px;
-border:1px solid;
+//border:1px solid;
+
+}
+#chromeup{
+height: 300px;
+width: 335px;
+background-color: rgb(121, 48, 42);
+
+}
+#chromedown{
+height: 95px;
+width: 335px;
+background-color: rgb(102, 39, 34);
 
 }
 #rightbottom{
 
 height:300px;
 width:335px;
-border:1px solid;
+//border:1px solid;
 margin-top:25px;
+}
+#musicup{
+    height: 200px;
+    width: 335px;
+    background-color: rgb(255, 208, 6);
+}
+
+#musicdown{
+    height: 100px;
+    width: 335px;
+    background-color: rgb(234, 192, 9);
 }
 img{
 height:400px;
