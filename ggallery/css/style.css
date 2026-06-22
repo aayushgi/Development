@@ -102,8 +102,9 @@ margin-top:25px;
     height: 370px;
     width: 350px;
     background-color: rgb(17, 30, 85);
+     
    
-    background-repeat: no-repeat;
+    
 }
 #earthimg{
    height: 190px;
@@ -112,6 +113,8 @@ margin-top:25px;
    margin-left: 80px;
     background-image: url(../images/earth.png);
     background-size: cover;
+    background-position-y: auto;
+    background-repeat: no-repeat;
    
 }
 #earthdown{
@@ -148,6 +151,7 @@ margin-top:25px;
     background-color: rgb(42, 112, 233);
     background-image: url(../images/serch.png);
     background-repeat: no-repeat;
+    background-position-x: 50px;
 }
 
 #searchdown{
@@ -168,6 +172,7 @@ margin-top:25px;
     background-image: url(../images/youtube.png);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position-x: center;
     
 }
 #youtubedown{
@@ -230,9 +235,18 @@ width:335px;
 height: 300px;
 width: 335px;
 background-color: rgb(121, 48, 42);
-background-image: url(../images/chrom.png);
-background-size: contain;
+//background-image: url(../images/chrom.png);
+//background-size: contain;
 
+}
+#chromimg{
+    height: 175px;
+    width: 200px;
+    //border: 1px solid;
+    margin:auto;
+    background-image: url(../images/chrom.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #chromedown{
 height: 95px;
