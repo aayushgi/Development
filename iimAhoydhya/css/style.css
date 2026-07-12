@@ -11,3 +11,46 @@ body{
 .g20{
     height: 70px;
 }
+.update{
+    font-weight: 700;
+}
+.card-img-top{
+    height: 180px;
+}
+.beadge{
+    background-color: rgb(247, 239, 229);
+}
+.course{
+    width: 220px;
+    text-align: center;
+    color: white;
+}
+.course-image{
+    height: 180px;
+    width: 220px;
+}
+.course-para{
+    height: 150px;
+    width: 220px;
+}
+
+
+.cource-card{
+    float: left;
+    margin-left: 90px;
+}
+.card-text-para{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(6, 102, 213);
+    margin:  auto;
+    margin-top: 10px;
+    
+}
+.message{
+    float: left;
+}
+.img-fluid-cheif{
+    width: 250px;
+    height: 384px;
+}
