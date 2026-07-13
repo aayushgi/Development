@@ -66,3 +66,22 @@ body{
 ul{
     list-style: none;
 }
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+}
+
+.banner-text h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.banner-text p{
+    font-size: 18px;
+    margin-top: 10px;
+}
